@@ -10,32 +10,32 @@ From the original dataset, the count of low risk is 68470 and for the high risk 
 
 •	**Random oversampling**
 
-**Balanced accuracy score: 0.65
+Balanced accuracy score: 0.65
 
 ![loading page]( https://github.com/jkmom/Credit_Risk_Analysis/blob/main/Resources/Ada_boost.png)
 
-•	SMOTE Oversampling
+•	**SMOTE Oversampling**
 
 Balanced accuracy score: 0.66
 ![loading page]( https://github.com/jkmom/Credit_Risk_Analysis/blob/main/Resources/SMOTE.png)
 
-•	Undersampling
+•	**Undersampling**
 
 Balanced accuracy score: 0.54
 
 ![loading page](https://github.com/jkmom/Credit_Risk_Analysis/blob/main/Resources/Undersampling.png)
 
-•	Combination
+•	**Combination**
 
 Balanced accuracy score: 0.67
 ![loading page](https://github.com/jkmom/Credit_Risk_Analysis/blob/main/Resources/Combination.png)
 
-•	Balanced Random Forest 
+•	**Balanced Random Forest** 
 Balanced accuracy score:0.79
  
 ![loading page]( https://github.com/jkmom/Credit_Risk_Analysis/blob/main/Resources/balanced_random_forest.png)
 
-•	AdaBoost
+•	**AdaBoost**
 
 Balanced accuracy score:0.93
 
