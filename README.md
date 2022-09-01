@@ -8,7 +8,7 @@ In this project, our goal to use machine learning to predict credit risk. We are
 
 From the original dataset, the count of low risk is 68470 and for the high risk is 347. This is probably coming from the nature of the loan applicants. If someone would like to apply for a loan, he/she probably has credit or background not too terrible so bring up the low-risk count much higher than the high-risk group. These two groups have a huge gap on the count so it will create bias in the model. To eliminating the bias coming from the imbalance counts, we focus on the functions to make the counts have less gap.
 
-•	 **Random oversampling
+•	 Random **oversampling
 
 Balanced accuracy score: 0.65
 
