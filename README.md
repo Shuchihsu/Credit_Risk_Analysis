@@ -45,3 +45,10 @@ Balanced accuracy score:0.93
 
 ### Summary
 
+Look at pre(precision), we can see the low risk have almost 1 (100%) in all models and very low rate (around 0.01) with high risk. Means the models are not very good at reading the high risk individuals. We will have a lot of False Positive with prediction high risk applicants. This means we are giving loans to someone they actually have bad credits. 
+
+But if we look at rec(recall), AdaBoost and Random oversampling both have average 0.94 (94%). This means they have low false negative (think(wrong) on someone with bad credit) in the model. 
+
+It depends on the loan institution. If they believe most people can fulfill the loan obligation and don’t want to miss any chance to give out loans, maybe they would use the recall ratio more than precision. 
+
+In the condition I mention above, then AdaBoost and random oversampling will be our recommendation. 
